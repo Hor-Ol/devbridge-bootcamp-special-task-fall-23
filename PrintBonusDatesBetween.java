@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 public class PrintBonusDatesBetween {
 
   public static void main(String[] args) {
-    printBonusDatesBetween(2010, 2015);
+    printBonusDatesBetween(2000, 2100);
   }
 
   static void printBonusDatesBetween(int fromYear, int toYear) {

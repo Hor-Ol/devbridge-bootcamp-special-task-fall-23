@@ -3,12 +3,12 @@
 ### Method finds palindrome dates for "yyyy-MM-dd" format in the given time period between two years.
 
 **Results:** <br>
-The result from running ```printBonusDatesBetween(2010, 2015);``` is: <br>
+The result from running `printBonusDatesBetween(2010, 2015);` is: <br>
 <br>
 _2010-01-02 <br>
 2011-11-02_ <br>
 <br>
-The result from running ```printBonusDatesBetween(2000, 2100);``` is: <br>
+The result from running `printBonusDatesBetween(2000, 2100);` is: <br>
 <br>
 _2001-10-02 <br>
 2010-01-02 <br>
@@ -27,4 +27,5 @@ _2001-10-02 <br>
 Which correspond to all of the palindrome dates for 21st Century for "yyyy-MM-dd" format.
 
 **Constraints & Checks:** <br>
-Entring of values outside of 999 to 9999 is not allowed as well as entering starting year that vould be bigger then ending year.
+Entring year values outside of 999 to 9999 is not allowed <br>
+Entering starting year that would be bigger then ending year is not allowed. <br>
