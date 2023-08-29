@@ -5,10 +5,10 @@ import java.time.format.DateTimeFormatter;
 public class PrintBonusDatesBetween {
 
   public static void main(String[] args) {
-    PrintBonusDatesBetween(2010, 2015);
+    printBonusDatesBetween(2010, 2015);
   }
 
-  static void PrintBonusDatesBetween(int fromYear, int toYear) {
+  static void printBonusDatesBetween(int fromYear, int toYear) {
 
     // --- INITIAL INPUT СHECKS:
     // Specifying allowed years range:
